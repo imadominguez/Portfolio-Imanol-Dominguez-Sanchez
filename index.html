@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0285fff265.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Imanol Dominguez Sanchez - Desarrollador web</title>
+</head>
+
+<body id="inicio">
+    
+    <!--Menu de navegacion-->
+
+    <nav class="nav">
+
+        
+        <!--Menu-->
+        
+        <div class="nav__logo">
+           <!--<p class="logo">ID</p>-->
+           <a href="#inicio" class="logo">ID</a> 
+        </div>
+
+        <!--Menu responsive hamburfuesa-->
+
+        <label for="menu" class="nav_label">
+            <img src="./Assets/Icons/menu.svg" alt="menu" class="nav_img">
+        </label>
+        <input type="checkbox" id="menu" class="nav_input">
+
+
+        <ul class="nav__links">
+            <li class="nav__link">
+                <a href="#home" class=" btn navItem"><i class="fa-solid fa-house"></i>Inicio</a>
+            </li>
+    
+            <li class="nav__link">
+                <a href="#sobremi" class="btn navItem"><i class="fa-solid fa-address-card"></i>Sobre mi</a>
+            </li>
+    
+            <li class="nav__link">
+                <a href="#skills" class="btn navItem"><i class="fa-solid fa-laptop-code"></i>Habilidades</a>
+            </li>
+    
+            <li class="nav__link">
+                <a href="#works" class="btn navItem"><i class="fa-solid fa-briefcase"></i>Proyectos</a>
+            </li>
+    
+            <li class="nav__link">
+                <a href="#contacto" class="btn navItem"><i class="fa-solid fa-envelope"></i>Contacto
+                </a>
+            </li>
+        </ul>
+
+    
+    </nav>
+
+    <!--Principal-->
+
+    <!--Seccion Hero-->
+    <section id="home" class="sectionHero sectionContainer">
+
+        <div class="heroImageContainer">
+            <img src="./Assets/Images/ima.jpg" alt="ima" class="hero__img">
+        </div>
+        <div class="heroDescripcion">
+            
+            <p class="saludo">Hola yo soy</p>
+            <h1 class="nombre"><span>Imanol</span> Dominguez</h1>
+            <p class="smallbio">
+                <span>Estudiante de desarrollo web front-end</span> en plena etapa de aprendizaje. <br>Actualmente cursando en Coderhouse.
+            </p>
+            
+            <div class="socialmedia__container">
+
+                <a href="" class="btn btn_cv">Descargar CV</a>
+
+                <ul class="socialmedia">
+
+                    <li class="socialmedia__links">
+
+                        <a href="" class="socialmedia__link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                    </li>
+
+                    <li class="socialmedia__links">
+
+                        <a href="https://github.com/imadominguez" class="socialmedia__link" target="_blank">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </li>
+
+                    <li class="socialmedia__links">
+
+                        <a href="https://www.instagram.com/imadominguez/" class="socialmedia__link" target="_blank">
+
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!--Seccion About-->
+    <section id="sobremi" class="aboutsection sectionContainer">
+
+        <h2 class="title">
+            Sobre mi
+        </h2>
+
+        <article class="aboutArticle articleContainer">
+            <div class="about_descripcion">
+                <h3>Me presento</h3>
+                <p class="article_parrafo">
+                    Soy de Olavarria, Buenos Aires. Tengo 25 años y actualmente soy un estudiante de desarrollo web en el curso de coderhouse. Hice varios cursos por youtube sobre HTML y CSS (Soy Dalto, Wmedia por Juan Andrés Núñez, AlexCG Design).  
+                    Hace un año vengo obteniendo conocimientos sobre HTML, CSS y Javascript, siendo los dos primeros los que mas tengo pulidos.
+                </p>
+                <br>
+                
+                <p class="article_parrafo1">Mi interes por el desarrollo web comenzo una vez terminado mi carrera universitaria. Desde chico inconcientemente me interesaba inspeccionar las paginas web, mirando el codigo (sin saber lo que era).
+                </p>
+                <br>
+                <p class="article_parrafo2">¡Me apasiona el desarrollo web, y estoy emocionado por aprender mucho más!.</p>
+
+            </div>
+            <br>
+            
+
+
+
+        </article>
+
+    </section>
+
+    <!--Seccion Skilss-->
+    <section id="skills" class="skillssection sectionContainer">
+
+        <h2 class="title">
+            Habilidades
+        </h2>
+
+        <ul class="skillsgrid articleContainer">
+
+            <li>
+                <div class="itemContainer">
+
+                    <img src="./Assets/Icons/html-5.png" alt="">
+                    <h5>HTML</h5>
+                    <p>Escribo marcado semántico teniendo en cuenta la accesibilidad. </p>
+                </div>
+
+            </li>
+
+            <li>
+                <div class="itemContainer">
+                    <img src="./Assets/Icons/css3.png" alt="">
+                    <h5>CSS</h5>
+                    <p>Mantengo mi CSS manejable y escalable siguiendo estrictamente las convenciones BEM.</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="itemContainer">
+                    <img src="./Assets/Icons/git.png" alt="">
+                    <h5>Git</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem non quas fuga.</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="itemContainer">
+                    <img src="./Assets/Icons/vscode.png" alt="">
+                    <h5>VS code</h5>
+                    <p>Mi programa favorito para escribir codigo, lo considero el más completo de todos.</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="itemContainer">
+                    <img src="./Assets/Icons/bootstrap.png" alt="">
+                    <h5>Bootstrap</h5>
+                    <p>Bootstrap es una biblioteca multiplataforma de código abierto para diseño de sitios y aplicaciones web.</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="itemContainer">
+                    <img src="./Assets/Icons/balsamiq.png" alt="" class="balsamiq">
+                    <h5>Balsamiq</h5>
+                    <p>Balsamiq es la herramienta de wireframing de baja fidelidad estándar de la industria.</p>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <!--Seccion Works-->
+    <section id="works" class="workssection sectionContainer">
+
+        <h2 class="title">
+            Proyectos
+        </h2>
+
+        <div class="articleContainer ">
+            <article class="article-Works">
+                <div class="article-Img">
+                    <img src="./Assets/Images/qr-proyecto.jpg" alt="" class="img-works">
+                </div>
+                <div class="article-info">
+                    <h3>QR code component</h3>
+                    <h4><span class="html">HTML</span> <span class="css">CSS</span></h4>
+                    <p class="article-info-paragraph">
+                        Desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.
+                    </p>
+                    <div class="article-info-link">
+                        <a href="https://imadominguez.github.io/Frontend-Mentor-QR-code-component/" target="_blank">Live</a>
+                        <a href="https://github.com/imadominguez/Frontend-Mentor-QR-code-component" target="_blank">Repo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article-Works">
+                <div class="article-Img">
+                    <img src="./Assets/Images/order-summary-proyecto.jpg" alt="" class="img-works">
+                </div>
+                <div class="article-info">
+                    <h3>Order summary component</h3>
+                    <h4><span class="html">HTML</span> <span class="css">CSS</span></h4>
+                    <p class="article-info-paragraph">
+                        Desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.
+                    </p>
+                    <div class="article-info-link">
+                        <a href="https://imadominguez.github.io/Order-summary-component/" target="_blank">Live</a>
+                        <a href="https://github.com/imadominguez/Order-summary-component" target="_blank">Repo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article-Works">
+                <div class="article-Img">
+                    <img src="./Assets/Images/qr-proyecto.jpg" alt="" class="img-works">
+                </div>
+                <div class="article-info">
+                    <h3>QR code component</h3>
+                    <h4><span class="html">HTML</span> <span class="css">CSS</span></h4>
+                    <p class="article-info-paragraph">
+                        Desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.
+                    </p>
+                    <div class="article-info-link">
+                        <a href="#">Live</a>
+                        <a href="#">Repo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article-Works">
+                <div class="article-Img">
+                    <img src="./Assets/Images/qr-proyecto.jpg" alt="" class="img-works">
+                </div>
+                <div class="article-info">
+                    <h3>QR code component</h3>
+                    <h4><span class="html">HTML</span> <span class="css">CSS</span></h4>
+                    <p class="article-info-paragraph">
+                        Desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.
+                    </p>
+                    <div class="article-info-link">
+                        <a href="#">Live</a>
+                        <a href="#">Repo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article-Works">
+                <div class="article-Img">
+                    <img src="./Assets/Images/qr-proyecto.jpg" alt="" class="img-works">
+                </div>
+                <div class="article-info">
+                    <h3>QR code component</h3>
+                    <h4><span class="html">HTML</span> <span class="css">CSS</span></h4>
+                    <p class="article-info-paragraph">
+                        Desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.
+                    </p>
+                    <div class="article-info-link">
+                        <a href="#">Live</a>
+                        <a href="#">Repo</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!--Seccion Contact-->
+    <section id="contacto" class="contactsection sectionContainer">
+
+        <h2 class="title">contacto</h2>
+
+        <div class="articleContainer contactFormContainer">
+            
+            <form action="" method="get" class="form-grid">
+                
+                <input type="text" name="nombre" id="nombre" required placeholder="Tu nombre*" class="name">
+                
+                <input type="email" name="email" id="email" required placeholder="Tu email*" class="email">
+                
+                <input type="text" name="tema" id="tema" required placeholder="Tema*" class="tema">
+
+                <textarea name="mensajeinput" id="mensajeinput" required placeholder="Tu mensaje*" class="mensaje"></textarea>
+            </form>
+
+            <button type="submit" class="btn formSend" target="_blank" form="contactform">ENVIAR</button>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>© Imanol Dominguez Sanchez  2022</p>
+    </footer>
+
+</body>
+
+</html>
