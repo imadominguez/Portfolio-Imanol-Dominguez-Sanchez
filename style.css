@@ -457,7 +457,7 @@ button {
 
 }
 
-/* Prueba */
+
 
 
 
@@ -477,13 +477,13 @@ footer p {
 }
 
 
-
+/* Responsive Design */
 
 
 @media all and (max-width: 480px){
     .sectionContainer{
         width: 80%;
-        margin: 0 auto;
+        margin: 0 auto; 
     }
 
 }
@@ -567,6 +567,7 @@ footer p {
     .aboutArticle {
         background-color: var(--color-hover);
         color: white;
+        height: max-content;
     }
     
     .skillssection {
