@@ -511,7 +511,7 @@ footer p {
 
     .nav__links {
         position: fixed;
-        top: 80px;
+        top: 100px;
         bottom: 0;
         background-color: var(--color-primario);
         width: 100%;
@@ -643,7 +643,7 @@ footer p {
 
     .nav__links {
         position: fixed;
-        top: 80px;
+        top: 100px;
         bottom: 0;
         background-color: var(--color-primario);
         width: 100%;
