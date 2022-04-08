@@ -75,6 +75,7 @@ body {
 .btn:hover {
     box-shadow: 0 0px 20px rgb(0 0 0 / 50%);
     background-color: var(--color-secundario);
+    color: white;
     
 }
 
@@ -92,6 +93,10 @@ body {
     text-align: center;
     color: inherit;
     
+}
+
+.logo:hover{
+    color: white;
 }
 
 .hero__img {
@@ -177,7 +182,7 @@ span {
 /* Section Sobre mi */
 
 .aboutsection {
-    height: 100vh;
+
     padding: 80px 0;
     display: flex;
     flex-direction: column;
@@ -200,6 +205,8 @@ span {
     padding: 50px;
     transition: all 0.4s ease-in;
     /*max-height: 100%;*/
+    background-color: white;
+    border-radius: 48px;
 
 }
 
@@ -237,7 +244,7 @@ span {
 /* Seccion Habilidades */
 
 .skillssection {
-    height: 100vh;
+
     padding: 80px 0;
     justify-content: center;
     display: flex;
@@ -340,13 +347,8 @@ span {
     height: 100%;
     border-radius: 15px;
 
-    transition: all 0.3s ease-in;
 }
 
-.img-works:hover{
-
-    transform: scale(0.95);
-}
 
 .article-info {
     margin-left: 25px;
@@ -389,7 +391,7 @@ span {
 /* Seccion Contacto */
 
 .contactsection{
-    height: 100vh;
+
     padding: 80px 0;
     display: flex;
     flex-direction: column;
@@ -430,9 +432,25 @@ span {
 }
 
 .mensaje:focus {
-    border-color: #eee;
+    border-color: var(--color-secundario);
+    border: solid 2px;
     outline: 0;
     box-shadow: 0 0 0 0.1rem #eee;
+}
+
+.name:focus{
+    border-color: var(--color-secundario);
+    border: solid 2px;
+}
+
+.email:focus{
+    border-color: var(--color-secundario);
+    border: solid 2px;
+}
+
+.tema:focus{
+    border-color: var(--color-secundario);
+    border: solid 2px;
 }
 
 input {
@@ -481,10 +499,13 @@ footer p {
 
 
 @media all and (max-width: 480px){
-    .sectionContainer{
-        min-width: 480px;
-        margin: 0 auto; 
-        height: 100%;
+    .heroImageContainer {
+        display: flex;
+    }
+
+    .hero__img {
+        width: 350px;
+        margin-bottom: 50px;
     }
 
 }
@@ -553,9 +574,7 @@ footer p {
     .heroDescripcion {
         margin: 0 30px;
     }
-    .hero__img {
-        display: none;
-    }
+
 
     .socialmedia__container {
        display: inline-block;
@@ -797,6 +816,7 @@ footer p {
       width: 100%;
     }
   }
+
 
 
 
