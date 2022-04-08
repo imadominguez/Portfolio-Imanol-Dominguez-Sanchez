@@ -558,14 +558,6 @@ footer p {
     }
 
 
-    .sectionContainer {
-        margin: 0 auto;
-        min-width: 400px;
-        width: 80%;
-        height: 100%;
-    }
-
-
     .sectionHero {
         
         height: 100vh;
@@ -686,11 +678,6 @@ footer p {
     }
 
 
-    .sectionContainer {
-        margin: 0 auto;
-        width: 70%;
-    }
-
 
     .sectionHero {
         height: 950px
@@ -774,25 +761,6 @@ footer p {
     }
 }
 
-
-@media screen and (min-width:1024px) and (max-width: 1600px){
-    .sectionContainer {
-        margin: 0 auto;
-        max-width: 800px;
-        
-    }
-    
-}
-
-
-@media screen and (min-width: 1601px){
-    .sectionContainer{
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-
-
-}
 
 
 
