@@ -352,6 +352,7 @@ span {
 
 .article-info {
     margin-left: 25px;
+    margin-top: 25px;
 }
 
 .article-info h4 {
@@ -365,6 +366,14 @@ span {
 
 .css {
     color: #3E54A3;
+}
+
+.bts {
+    color: #7952B3;
+}
+
+.scss {
+    color: #BF4080;
 }
 
 .article-info-paragraph {
