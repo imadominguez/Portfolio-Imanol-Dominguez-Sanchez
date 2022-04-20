@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Imanol Dominguez Sanchez - Desarrollador web</title>
 </head>
@@ -62,7 +62,7 @@
     <!--   Principal   -->
 
     <!-- Seccion Hero -->
-    <section id="home" class="sectionHero container-lg">
+    <section id="home" class="sectionHero container-lg" >
         <div class="d-sm-flex flex-sm-column gap-sm-1 align-items-sm-center d-md-flex flex-md-column gap-md-1 align-items-md-center d-lg-flex flex-lg-column gap-lg-4 align-items-lg-center flex-xl-row">
             <div class="heroImageContainer">
                 <img src="./Assets/Images/ima.jpg" alt="ima" class="hero__img ">
@@ -124,7 +124,7 @@
             Sobre mi
         </h2>
 
-        <article class="aboutArticle container-fluid">
+        <article class="aboutArticle container-fluid" data-aos="flip-right" data-aos-duration="1500">
             <div class="about_descripcion">
                 <h3>Me presento</h3>
                 <p class="article_parrafo">
@@ -157,7 +157,7 @@
 
         <ul class="skillsgrid articleContainer">
 
-            <li>
+            <li data-aos="fade-down-right" data-aos-duration="1500">
                 <div class="itemContainer">
 
                     <img src="./Assets/Icons/html-5.png" alt="html-icon">
@@ -167,7 +167,7 @@
 
             </li>
 
-            <li>
+            <li data-aos="fade-down" data-aos-duration="1500">
                 <div class="itemContainer">
                     <img src="./Assets/Icons/css3.png" alt="css-icon">
                     <h5>CSS</h5>
@@ -175,7 +175,7 @@
                 </div>
             </li>
 
-            <li>
+            <li data-aos="fade-down-left" data-aos-duration="1500">
                 <div class="itemContainer">
                     <img src="./Assets/Icons/git.png" alt="git-icon">
                     <h5>Git</h5>
@@ -183,7 +183,7 @@
                 </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up-right" data-aos-duration="1500">
                 <div class="itemContainer">
                     <img src="./Assets/Icons/vscode.png" alt="vscode-icon">
                     <h5>VS code</h5>
@@ -191,7 +191,7 @@
                 </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-duration="1500">
                 <div class="itemContainer">
                     <img src="./Assets/Icons/bootstrap.png" alt="bootstrap-icon">
                     <h5>Bootstrap</h5>
@@ -199,7 +199,7 @@
                 </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up-left" data-aos-duration="1500">
                 <div class="itemContainer">
                     <img src="./Assets/Icons/balsamiq.png" alt="balsamiq-icon" class="balsamiq">
                     <h5>Balsamiq</h5>
@@ -219,7 +219,7 @@
         </h2>
 
         <div class="articleContainer ">
-            <article class="article-Works">
+            <article class="article-Works" data-aos="fade-right" data-aos-duration="1500">
                 <div class="article-Img">
                     <img src="./Assets/Images/qr-proyecto.jpg" alt="qr-proyecto" class="img-works">
                 </div>
@@ -236,7 +236,7 @@
                 </div>
             </article>
 
-            <article class="article-Works">
+            <article class="article-Works" data-aos="fade-left" data-aos-duration="1500">
                 <div class="article-Img">
                     <img src="./Assets/Images/order-summary-proyecto.jpg" alt="order-summary-proyecto" class="img-works">
                 </div>
@@ -253,7 +253,7 @@
                 </div>
             </article>
 
-            <article class="article-Works">
+            <article class="article-Works" data-aos="fade-right" data-aos-duration="1500">
                 <div class="article-Img">
                     <img src="./Assets/Images/desktop-design.jpg" alt="testimonials" class="img-works">
                 </div>
@@ -270,7 +270,7 @@
                 </div>
             </article>
 
-            <article class="article-Works">
+            <article class="article-Works" data-aos="fade-left" data-aos-duration="1500">
                 <div class="article-Img">
                     <img src="./Assets/Images/qr-proyecto.jpg" alt="qr-proyecto" class="img-works">
                 </div>
@@ -287,7 +287,7 @@
                 </div>
             </article>
 
-            <article class="article-Works">
+            <article class="article-Works" data-aos="fade-right" data-aos-duration="1500">
                 <div class="article-Img">
                     <img src="./Assets/Images/qr-proyecto.jpg" alt="qr-proyecto" class="img-works">
                 </div>
@@ -339,6 +339,8 @@
     <!-- Script -->
     <script src="https://kit.fontawesome.com/0285fff265.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>

@@ -1,0 +1,61 @@
+/* Seccion Habilidades */
+
+.skillssection {
+
+    padding: 80px 0;
+    justify-content: center;
+    display: $d-flex;
+    flex-direction: column;
+    cursor: default;
+}
+
+.skillsgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(155px, 1fr));
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+    padding: 60px;
+    justify-items: center;
+    align-items: center;
+
+    li {
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid #eee;
+        background-color: $white;
+        transition: $transition;
+        width: 250px;
+        height: 150px;
+
+        &:hover {
+            box-shadow: 0 10px 28px #00000033;
+            background-color: $color-hover;
+            color: $white;
+        }
+    }
+
+}
+
+.skillsgrid li h5{
+    margin-top: 5px;
+}
+
+.skillsgrid li p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.itemContainer {
+    text-align: center;
+}
+
+.balsamiq {
+    height: 24px;
+    width: 24px;
+}
+
+.itemContainer p {
+    font-size: 0.7rem;
+}

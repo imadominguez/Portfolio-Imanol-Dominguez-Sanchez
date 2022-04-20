@@ -1,0 +1,83 @@
+/* Seccion Contacto */
+
+.contactsection{
+
+    padding: 80px 0;
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactFormContainer {
+    padding: 30px
+    
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 30px;
+    margin-bottom: 35px;
+
+}
+
+.name {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    &:focus {
+        border-color: $color-secundario;
+        border: solid 2px;
+    }
+}
+
+.mensaje {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 15px;
+    border: 1px solid $white;
+    transition: $transition;
+    padding: 11px 20px;
+    resize: none;
+
+    &:focus {
+        border-color: $color-secundario;
+        border: solid 2px;
+        outline: 0;
+        box-shadow: 0 0 0 0.1rem $white;
+    }
+}
+
+.email:focus{
+    border-color: $color-secundario;
+    border: solid 2px;
+}
+
+.tema:focus{
+    border-color: $color-secundario;
+    border: solid 2px;
+}
+
+input {
+    padding: 11px 20px;
+    border-radius: 15px;
+    border: 1px solid $white;
+    transition: $transition;
+
+    &:focus {
+        border-color: $white;
+        outline: 0;
+        box-shadow: 0 0 0 0.1rem $white;
+    }
+}
+
+button {
+    display: $d-flex;
+    margin: 0 auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}

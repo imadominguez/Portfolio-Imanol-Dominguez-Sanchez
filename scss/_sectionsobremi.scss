@@ -1,0 +1,51 @@
+/* Section Sobre mi */
+
+.aboutsection {
+    padding: 80px 0;
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    cursor: default;
+
+}
+
+.aboutArticle {
+    padding: 50px;
+    transition: $transition;
+    background-color: $white;
+    border-radius: 48px;
+
+    &:hover {
+        color: $color-hover
+    }
+
+}
+
+.about_descripcion h3 {
+    color: #0077B6;
+    text-transform: uppercase;
+}
+
+/* Propiedades para los Article Container */
+
+.articleContainer {
+    background-color: $white;
+    border-radius: 48px;
+}
+
+.article_parrafo, .article_parrafo1, .article_parrafo2 {
+    line-height: 1.8;
+}
+
+.article_parrafo {
+    margin-top: 35px;
+}
