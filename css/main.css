@@ -89,6 +89,8 @@ body {
   letter-spacing: 2px;
   font-weight: bold;
   letter-spacing: 2px; }
+  .nombre span {
+    color: #006499; }
 
 .smallbio {
   line-height: 1.4; }
@@ -219,7 +221,7 @@ body {
   border-radius: 15px;
   margin: 50px 25px;
   padding: 30px;
-  transition: all 0.5s ease-out; }
+  transition: all 0.5s ease-in; }
   .article-Works:hover {
     background-color: #193461;
     color: white; }
