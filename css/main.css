@@ -334,3 +334,153 @@ footer p {
   color: white;
   font-size: 1rem;
   text-align: center; }
+
+/* Responsive Design */
+@media all and (max-width: 480px) {
+  .heroImageContainer {
+    display: flex; }
+  .hero__img {
+    width: 350px;
+    margin-bottom: 50px; } }
+
+/* Mobile */
+@media (max-width: 767px) {
+  .nav_label {
+    display: block;
+    cursor: pointer; }
+  .nav__logo {
+    display: none; }
+  .nav__links {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    background-color: #006499;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    clip-path: inset(0 0 100% 0);
+    transition: all 0.5s ease-in; }
+  .nav_input:checked + .nav__links {
+    clip-path: inset(0 0 0 0); }
+  .nav__links .btn {
+    padding: 0;
+    border: none;
+    display: block;
+    background-color: #006499; }
+  .sectionHero {
+    height: 100vh; }
+  .heroDescripcion {
+    margin: 0 30px; }
+  .socialmedia__container {
+    display: inline-block; }
+  .socialmedia {
+    margin: 40px 0 0; }
+  .aboutArticle {
+    background-color: #193461;
+    color: white;
+    height: max-content; }
+  .skillsgrid li {
+    background-color: #193461;
+    color: white; }
+  .article-Works {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 400px;
+    margin: 50px auto;
+    background-color: #006499;
+    color: white; }
+  .article-info-link a {
+    color: #006499; }
+  .img-works {
+    width: 100%;
+    filter: none;
+    transition: none; }
+    .img-works:hover {
+      transform: none; }
+  .contactFormContainer {
+    width: 100%; }
+  .form-grid {
+    display: flex;
+    flex-direction: column; }
+    .form-grid input {
+      margin-bottom: 20px; } }
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav {
+    position: fixed; }
+  .nav_label {
+    display: block;
+    cursor: pointer; }
+  .nav__logo {
+    display: none; }
+  .nav__links {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    background-color: #006499;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    clip-path: inset(0 0 100% 0);
+    transition: all 0.5s ease-in; }
+  .nav_input:checked + .nav__links {
+    clip-path: inset(0 0 0 0); }
+  .nav__links .btn {
+    padding: 0;
+    border: none;
+    display: block;
+    background-color: #006499; }
+  .sectionHero {
+    height: 950px; }
+  .heroDescripcion {
+    margin: 35px; }
+  .socialmedia__container {
+    display: inline-block; }
+  .socialmedia {
+    margin: 40px 0 0; }
+  .aboutsection {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 900px; }
+  .aboutArticle {
+    background-color: #193461;
+    color: white; }
+  .skillssection {
+    margin-top: 50px; }
+  .skillsgrid li {
+    background-color: #193461;
+    color: white; }
+  .workssection {
+    margin-top: 200px;
+    padding: 0; }
+  .article-Works {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: #193461;
+    color: white; }
+  .article-info-link a {
+    color: #006499; }
+  .img-works {
+    width: 100%;
+    filter: none;
+    transition: none; }
+    .img-works:hover {
+      transform: none; }
+  .contactFormContainer {
+    width: 100%; }
+  .form-grid {
+    display: flex;
+    flex-direction: column; }
+  .form-grid input {
+    margin-bottom: 20px; } }
