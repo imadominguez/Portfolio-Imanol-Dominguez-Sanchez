@@ -324,6 +324,10 @@ button {
   background: none;
   border: none; }
 
+.formSend {
+  grid-column-start: 1;
+  grid-column-end: 3; }
+
 /* Footer */
 footer {
   background-color: #006499;
