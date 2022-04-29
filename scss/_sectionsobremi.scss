@@ -25,7 +25,8 @@
     border-radius: 48px;
 
     &:hover {
-        color: $color-hover
+        background-color: $color-hover;
+        color: $white;
     }
 
 }
